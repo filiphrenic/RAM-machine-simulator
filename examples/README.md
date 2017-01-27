@@ -27,9 +27,11 @@ Result is first + second
 ## Example 7: Multiplication
 
 > uses addition
+
 Result is first * second
 
 ## Example 8: Exponentiation
 
 > uses multiplication
+
 Result is first ^ second
