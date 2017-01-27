@@ -25,7 +25,7 @@ First argument is placed into `R1`, second into `R2`, ...
 
 Every other line must be an operation.
 
-Commands are indexed from _1_
+Operations are indexed from _1_
 
 
 ## Operations
@@ -39,12 +39,12 @@ Commands are indexed from _1_
 
 ### Macro machine
 
-* all commands from _RAM machine_
+* all operations from _RAM machine_
 * `ZERO x`   => set `R[x]` to _0_
 * `MOVE x y` => set `R[y] = R[x]`
 * `f(x,y,z,...)` => start _RAM function f_ using registers _x,y,z,..._ and write result to `R[0]`
 
-These can be written purely by using commands for the RAM machine
+These can be written entirely by using operations for the RAM machine
 
 #### `ZERO x`
 ```
